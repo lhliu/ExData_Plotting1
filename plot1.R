@@ -13,7 +13,7 @@ plot1 <- function() {
     dat3 <- as.numeric(as.character(dat[,3]),na.rm = TRUE)
     
     #Draw hist
-    hist(x3, col="red", 
+    hist(dat3, col="red", 
          main="Global Active Power", 
          xlab="Global Active Power (kilowatts)")
     
